@@ -12,3 +12,4 @@ v 0.1.0
 * Update ReadME.md
 * Create Contributing.md
 * Update package.json for Brackets 0.42 (Theme-Editor)
+* Improvement Quick Edit
