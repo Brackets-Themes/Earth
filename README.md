@@ -1,0 +1,4 @@
+EarthThemeForBrackets
+=====================
+
+Theme for Brackets
