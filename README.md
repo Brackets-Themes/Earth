@@ -1,4 +1,4 @@
-EarthThemeForBrackets
+Earth Theme For Brackets
 =====================
 
-Theme for Brackets
+# Screenshot
