@@ -6,7 +6,7 @@ Earth Theme For Brackets
 How to install (only Brackets 0.42)
 ==========================
 
-1. File :arrow_right: extension manager…
+1. File :arrow_right: Extension manager…
 2. Click the tab called "Available"
 3. Type "Earth Theme" in the top right search bar
 4. Click "Install".
