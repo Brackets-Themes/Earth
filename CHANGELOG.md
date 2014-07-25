@@ -12,4 +12,9 @@ v 0.1.0
 * Update ReadME.md
 * Create Contributing.md
 * Update package.json for Brackets 0.42 (Theme-Editor)
-* Improvement Quick Edit
+* Improvement "Main Area" --> "Editor when no file is open"
+* Improvement "Right Sidebar"
+* Improvement "Status bar - bottom"
+* Improvement "the "x" to close"
+* Change color of Comment
+* Improvement "Left Sidebar"
