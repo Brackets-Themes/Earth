@@ -1,0 +1,28 @@
+{
+    "title": "Earth Theme",
+    "name": "earth",
+    "description": "Earth Theme is a dark, high contrast theme, that is easy to read.",
+    "version": "0.1.0",
+    "author": "Denisov21",
+    "homepage": "https://github.com/Denisov21/EarthThemeForBrackets",
+    "keywords": [
+        "extension",
+        "brackets",
+        "Earth",
+        "dark",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Denisov21/EarthThemeForBrackets.git"
+    },
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+
+    "theme": {
+        "file": "earth.css",
+        "dark": true
+    },
+    "screenshot": "screenshot.png"
+}
