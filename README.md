@@ -3,7 +3,7 @@ Earth Theme For Brackets
 
 * Earth Theme is a dark, high contrast theme, that is easy to read.
 
-How to install
+How to install (only Brackets 0.42)
 ==========================
 
 1. File :arrow_right: extension manager…
