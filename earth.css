@@ -178,7 +178,7 @@ div.CodeMirror span.CodeMirror-matchingbracket{background:#403c37;} /*Matching b
 
 /*************************************** Main area***************************************/
 /* Editor when no file is open */
-/*#editor-holder { background-color: #363530 !important; }
-#editor-holder #not-editor { background-color: #5c5954 !important; }*/
+#editor-holder { background-color: #363530 !important; }
+#editor-holder #not-editor { background-color: #5c5954 !important; }
 
 
