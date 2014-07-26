@@ -18,3 +18,8 @@ v 0.1.0
 * Improvement "the "x" to close"
 * Change color of Comment
 * Improvement "Left Sidebar"
+
+v 0.1.1
+
+* Change name in "Earth"
+* Change descrition in "The Earth Dark Theme for Brackets!"
