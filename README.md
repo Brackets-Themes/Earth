@@ -1,4 +1,4 @@
-Earth Theme For Brackets
+Earth Theme For [Brackets](http://http://brackets.io/)
 =====================
 
 * Earth Theme is a dark, high contrast theme, that is easy to read.
