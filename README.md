@@ -29,3 +29,4 @@ Contributing
 Screenshot
 ==========================
 
+![earth](https://github.com/Denisov21/EarthThemeForBrackets/raw/master/screenshot.png)
