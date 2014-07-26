@@ -45,7 +45,6 @@
 .CodeMirror .CodeMirror-matchingtag{background:none; text-decoration:underline; font-weight: bold; color: rgb(56, 178, 255) !important;} /*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
 div.CodeMirror span.CodeMirror-matchingbracket{background:#403c37;} /*Matching brackets, open/close*/
 
-
     /*Status bar - bottom*/
 /*#status-bar{background:#2b2a27; color:#ede0ce; border-top:1px solid #403c37;}/*Bottom status bar*/
 
@@ -64,7 +63,7 @@ div.CodeMirror span.CodeMirror-matchingbracket{background:#403c37;} /*Matching b
     color: #ccc;
 }
 
-/********* Quick Documentation - Ctrl + K - CSS - Schnell Dokumentation *********/
+/********* Quick Documentation - Ctrl + K - CSS*********/
 .inline-widget .css-prop-defn { color: white !important;  }
 .inline-widget .css-prop-defn h1 { color: #FF5D38 !important; }
 .inline-widget .css-prop-defn dt { color: #48adff !important; }
@@ -90,7 +89,7 @@ div.CodeMirror span.CodeMirror-matchingbracket{background:#403c37;} /*Matching b
 /*************************************** Sidebars ***************************************/
 /************** Left Sidebar **************/
 
-/* Zahnrad - Options */
+/*Options */
 #sidebar #working-set-option-btn:hover {
     border: 2px solid #FF5D38;
     opacity: 1;
@@ -102,7 +101,7 @@ div.CodeMirror span.CodeMirror-matchingbracket{background:#403c37;} /*Matching b
 #sidebar #open-files-container ul li.selected a { color: #fafafa; }
 #sidebar #open-files-container ul li.selected a span.extension { color: #ede0ce; }
 
-/************** Right Sidebar - Rechte Toolbar **************/
+/************** Right Sidebar**************/
 /*Whole toolbar*/
 #main-toolbar {
     background-color: #444749;
@@ -177,9 +176,9 @@ div.CodeMirror span.CodeMirror-matchingbracket{background:#403c37;} /*Matching b
 
 #status-bar #status-indicators #status-language { color: #D7D8D9 !important; } /* Language info */
 
-/*************************************** Main area - Hauptberreich ***************************************/
+/*************************************** Main area***************************************/
 /* Editor when no file is open */
-#editor-holder { background-color: #363530 !important; }
-#editor-holder #not-editor { background-color: #5c5954 !important; }
+/*#editor-holder { background-color: #363530 !important; }
+#editor-holder #not-editor { background-color: #5c5954 !important; }*/
 
 
