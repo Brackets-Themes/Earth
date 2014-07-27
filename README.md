@@ -17,6 +17,10 @@ Contributing
 ==========================
 * Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) if you would like to help.
 
+License
+==========================
+* Under Mit license [`LICENSE`](LICENSE)
+
 Screenshot
 ==========================
 
