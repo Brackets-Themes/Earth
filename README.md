@@ -3,19 +3,10 @@ Earth Theme
 
 * The Earth Dark Theme for Brackets!
 
-How to install (only [Brackets](http://www.brackets.io/) 0.42)
+How to install
 ==========================
 
-1. File :arrow_right: Extension manager…
-2. Click the tab called "Available"
-3. Type "Earth Theme" in the top right search bar
-4. Click "Install".
-5. Click Close on the pop up
-6. Click Close on the extension manager
-7. View :arrow_right: Themes…
-8. Current Theme change to Earth Theme
-9. (optional) Personally i run the Font Size at 12px
-10. Click Done 
+Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 Troubleshooting
 ==========================
