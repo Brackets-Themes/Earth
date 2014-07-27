@@ -19,7 +19,7 @@ Contributing
 
 License
 ==========================
-* Under Mit license [`LICENSE`](LICENSE)
+* Under MIT license [`LICENSE`](LICENSE)
 
 Screenshot
 ==========================
