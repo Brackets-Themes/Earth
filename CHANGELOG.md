@@ -23,3 +23,7 @@ v 0.1.1
 
 * Change name in "Earth"
 * Change descrition in "The Earth Dark Theme for Brackets!"
+
+v 0.1.2
+
+*Update ReadME.md
