@@ -24,4 +24,4 @@ License
 Screenshot
 ==========================
 
-![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/screenshot.png
+![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/screenshot.png)
