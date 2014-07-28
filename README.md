@@ -24,4 +24,4 @@ License
 Screenshot
 ==========================
 
-![earth](https://github.com/Denisov21/EarthThemeForBrackets/raw/master/screenshot.png)
+![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/screenshot.png
