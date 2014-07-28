@@ -19,7 +19,7 @@ Contributing
 
 License
 ==========================
-* Under MIT license [`LICENSE`](LICENSE)
+* Theme under MIT license [`LICENSE`](LICENSE)
 
 Screenshot
 ==========================
