@@ -27,4 +27,4 @@ v 0.1.1
 v 0.1.2
 
 * Update ReadME.md
-* .CodeMirror .cm-builtin{color:#00a8c6; opacity 0.75; font-weight: bolder;} *id ex: #class*
+* Add .CodeMirror .cm-builtin{color:#00a8c6; opacity 0.75; font-weight: bolder;} (id ex: #class)
