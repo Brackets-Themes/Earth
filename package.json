@@ -5,21 +5,14 @@
     "version": "0.1.2",
     "author": "Denisov21",
     "homepage": "https://github.com/Brackets-Themes/Earth",
-    "keywords": [
-        "extension",
-        "brackets",
-        "Earth",
-        "dark",
-        "theme"
-    ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/Brackets-Themes/Earth.git"
+        "url": "git@github.com:Brackets-Themes/Earth.git"
     },
+    "license": "MIT",
     "engines": {
         "brackets": ">=0.42.0"
     },
-
     "theme": {
         "file": "earth.css",
         "dark": true
