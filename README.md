@@ -1,27 +1,36 @@
-Earth Theme
-===========
+# Earth Theme
+
 
 * The Earth Dark Theme for Brackets!
 
-How to install
-==========================
+# How to install
+
 
 Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
-Troubleshooting
-==========================
+# Troubleshooting
+
 1. Things look "weird"
 	1. Try hitting F5 (Save changes before doing so!).
 
-Contributing
-==========================
+# Contributing
+
 * Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) if you would like to help.
 
-License
-==========================
+# License
+
 * Theme under MIT license [`LICENSE`](LICENSE)
 
-Screenshot
-==========================
+# Screenshot
+
+## HTML
 
 ![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/screenshot.png)
+
+## CSS
+
+![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/CSS.png)
+
+## JAVASCRIPT
+
+![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/JS.png)
