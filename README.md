@@ -23,14 +23,14 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 # Screenshot
 
-## HTML
+### HTML
 
 ![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/screenshot.png)
 
-## CSS
+### CSS
 
 ![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/CSS.png)
 
-## JAVASCRIPT
+### JavaScript
 
 ![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/JS.png)
