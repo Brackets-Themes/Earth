@@ -66,6 +66,7 @@
 .CodeMirror .CodeMirror-linenumber {
     padding-right: 5px;
     padding-left: 1px;
+    color: #26A6A6;
 }
 
 /* the "x" to close, shout work for all avalibal classes  */

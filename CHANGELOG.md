@@ -40,5 +40,5 @@ v 0.1.4
 
 v 0.1.5
 
-* Change padding .CodeMirror .CodeMirror-linenumber
+* Change padding  and add color .CodeMirror .CodeMirror-linenumber
 * Add .CodeMirror-foldmarker
