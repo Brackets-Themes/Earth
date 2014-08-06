@@ -32,3 +32,8 @@ v 0.1.2
 v 0.1.3
 
 * Fix many bug in Brackets 0.42!
+
+v 0.1.4
+
+* Small improvement
+* Add License in file CSS
