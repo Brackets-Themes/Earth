@@ -44,3 +44,4 @@ v 0.1.5
 * Add .CodeMirror-foldmarker
 * Add .CodeMirror-searching .searching-current-match (Brackets 0.43)
 * Add .CodeMirror-searching (Brackets 0.43)
+
