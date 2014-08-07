@@ -42,3 +42,5 @@ v 0.1.5
 
 * Change padding  and add color .CodeMirror .CodeMirror-linenumber
 * Add .CodeMirror-foldmarker
+* Add .CodeMirror-searching .searching-current-match (Brackets 0.43)
+* Add .CodeMirror-searching (Brackets 0.43)
