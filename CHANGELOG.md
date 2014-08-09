@@ -1,11 +1,11 @@
-CHANGELOG
-=====================
+# CHANGELOG
 
 v 0.0.4
 
 * Fix issue https://github.com/Denisov21/EarthThemeForBrackets/issues/2
 (.CodeMirror-selected{background:rgb(91, 104, 173) !important;})
-* Update ReadMe.md add screenshot
+* Update ReadMe.md 
+* Add screenshot
 
 v 0.1.0
 
@@ -44,4 +44,9 @@ v 0.1.5
 * Add .CodeMirror-foldmarker
 * Add .CodeMirror-searching .searching-current-match (Brackets 0.43)
 * Add .CodeMirror-searching (Brackets 0.43)
+* Add .cm-error
+* Add .cm-link
+* Add Extension "Various improvements" (Brackets 0.43)
+* Add Extension "CanIUse" (Brackets 0.43)
+* Change .cm-meta
 
