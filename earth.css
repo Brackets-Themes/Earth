@@ -10,21 +10,21 @@
     background: #2b2a27;
     color: #929aa2;}
 
-/************** Cursor **************/
+/************** Cursor e OVR cursor **************/
 .CodeMirror-cursor {
     border-left: 2px solid #ede0ce !important;
 }
 
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
     border-left: none !important;
-    border-bottom: 1px solid #ede0ce;
+    border-bottom: 2px solid #ede0ce;
 }
 
 
 .CodeMirror .CodeMirror-scroll .CodeMirror-gutters{background:#2b2a27; border-right:1px solid #403c37;}/*Left vertical bar with line count*/
 
     /*Syntax elements & action*/
-.cm-atom, .cm-link{color:#BCD42A;} /*Atribbute value ex. #f00 in color:#f00; Link;*/
+.cm-atom, .cm-link{color:#BCD42A;} /*Attribute value ex. #f00 in color:#f00; Link;*/
 .cm-def{color: inherit;} /*variable definition*/
 .cm-number{color:#BCD42A;} /*Numbers*/
 .cm-variable{color: inherit;} /*Variable name ex. class Variable_name */
@@ -33,7 +33,7 @@
 .cm-operator{color: inherit;} /*Operators ex. dots (:) between property and atom value */
 .cm-comment{color:#c18c23;} /*Comment*/
 .cm-string{color:#BCD42A;} /*String elements ex. "description" in name="description" - including quotation*/
-.cm-meta{color: inherit;} /*Meta elements like ex.: <!DOCTYPE html>*/
+.cm-meta{color: #00ffce; } /*Meta elements like ex.: <!DOCTYPE html>*/
 .cm-qualifier{color:#BCD42A; /*opacity 0.75;*/ font-weight: bolder;} /*Final qualifier like css class ex.: .cm-qualifier*/
 .cm-builtin{color:#00a8c6; font-weight: bolder;} /*Final qualifier like css id ex.: #context-menu-bar*/
 .cm-tag{color:#26A6A6;} /*Tags ex. ul or <ul>*/
@@ -176,12 +176,6 @@
     opacity: 1;
 }
 
-#status-bar #status-indicators #fileSizeInfo { color: #D7D8D9;} /* File size */
-
-/* File path */
-#status-bar #status-indicators #filePathInfo {
-    color: #D7D8D9;
-}
 
 /* "Various improvements" file search header */
 #search-files-results .toolbar { background-color: #3C3F41; }
@@ -230,3 +224,69 @@
 
 #search-files-results .table-container { background-color: #D7D7D7; }
 
+/************** Status bar - bottom **************/
+#status-bar {
+    background-color: #313638;
+    border-top: 1px solid #2b2a27;
+    border-bottom: 1px solid #2b2a27;
+}
+
+/* Line & column info - Zeilen, Spalten info */
+#status-bar #status-info { 
+    color: #FF5D38;
+    font-size: 12px;
+}
+
+/* whole lines in document info - alle zeilen angabe */
+#status-bar #status-file { 
+    font-size: 11px; 
+    color: #BCD42A !important; 
+ 
+} 
+
+/* Indent status info (tab or spaces) */
+#status-bar #status-indicators #status-indent {
+    font-size: 11px;
+    color: #BCD42A !important; 
+    font-weight: bolder;
+}
+
+#status-bar #status-indicators #status-indent:hover {
+    color: #BCD42A;
+    border-right: 1px solid #FF5D38;
+    border-left: 1px solid #FF5D38;
+    border-radius: 5px;
+}
+
+/* Indent status info(overwrite or insert */
+#status-bar #status-indicators #status-overwrite {
+    font-size: 11px;
+    color: #BCD42A !important; 
+    font-weight: bolder;
+}
+#status-bar #status-indicators #status-overwrite:hover {
+    color: #BCD42A;
+    border-right: 1px solid #FF5D38;
+    border-left: 1px solid #FF5D38;
+    border-radius: 5px;
+}
+
+/* Error's in developer tools*/
+#status-bar #status-indicators #error-counter {
+    font-size: 12px;
+    color: #BEC0C0;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+#status-bar #status-indicators #error-counter:hover {
+    color: #BCD42A;
+    border-right: 1px solid #FF5D38;
+    border-left: 1px solid #FF5D38;
+}
+
+/* Language info */
+#status-bar #status-indicators #status-language {
+    font-size: 11px;
+    color: #BCD42A !important; 
+    font-weight: bolder;
+} 
