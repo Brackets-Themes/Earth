@@ -42,7 +42,7 @@ v 0.1.5
 
 * Change padding  and add color .CodeMirror .CodeMirror-linenumber
 * Add .CodeMirror-foldmarker
-* Add .CodeMirror-searching .searching-current-match (Brackets 0.43)
+* Add .searching-current-match (Brackets 0.43)
 * Add .CodeMirror-searching (Brackets 0.43)
 * Add .cm-error
 * Add .cm-link
@@ -50,3 +50,8 @@ v 0.1.5
 * Add Extension "CanIUse" (Brackets 0.43)
 * Change .cm-meta
 
+v 0.2.0
+
+* Added effect faded in the home screen
+* Corrected many errors or code is no longer supported
+* Now many element are in dark mode! ( Brackets 0.43)
