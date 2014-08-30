@@ -2,8 +2,7 @@
 
 v 0.0.4
 
-* Fix issue https://github.com/Denisov21/EarthThemeForBrackets/issues/2
-(.CodeMirror-selected{background:rgb(91, 104, 173) !important;})
+* Fix issue https://github.com/Denisov21/EarthThemeForBrackets/issues/2 (.CodeMirror-selected{background:rgb(91, 104, 173) !important;})
 * Update ReadMe.md 
 * Add screenshot
 
@@ -55,3 +54,4 @@ v 0.2.0
 * Added effect faded in the home screen
 * Corrected many errors or code is no longer supported
 * Now many element are in dark mode! ( Brackets 0.43)
+* Change .close
