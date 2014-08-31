@@ -61,3 +61,4 @@ v 0.2.0
 * Fix a small problem with cursor!
 * Now cursor is 1px!
 * Add .searching-current-match
+* Add .cm-header
