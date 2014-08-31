@@ -25,7 +25,7 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 ### HTML
 
-![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/screenshot.png)
+![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/HTML.png)
 
 ### CSS
 
