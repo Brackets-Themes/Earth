@@ -51,9 +51,13 @@ v 0.1.5
 
 v 0.2.0
 
-* Added effect faded in the home screen
+* Add .quick-view-highlight
 * Corrected many errors or code is no longer supported
 * Now many element are in dark mode! ( Brackets 0.43)
 * Change .close
 * Add class .cm-header
 * Add class .quick-view-highlight (Brackets 0.43)
+* Remove /* Non-editor styling */ (#image-holder, #not-editor #image-holder) 
+* Fix a small problem with cursor!
+* Now cursor is 1px!
+* Add .searching-current-match
