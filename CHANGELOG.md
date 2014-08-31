@@ -55,3 +55,5 @@ v 0.2.0
 * Corrected many errors or code is no longer supported
 * Now many element are in dark mode! ( Brackets 0.43)
 * Change .close
+* Add class .cm-header
+* Add class .quick-view-highlight (Brackets 0.43)
