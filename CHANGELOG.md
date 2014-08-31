@@ -1,4 +1,4 @@
-# CHANGELOG
+# CHANGELOG Earth
 
 v 0.0.4
 
@@ -60,5 +60,5 @@ v 0.2.0
 * Remove /* Non-editor styling */ (#image-holder, #not-editor #image-holder) 
 * Fix a small problem with cursor!
 * Now cursor is 1px!
-* Add .searching-current-match
+* Add .searching-current-match (Brackets 0.43)
 * Add .cm-header
