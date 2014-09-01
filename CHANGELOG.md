@@ -62,3 +62,9 @@ v 0.2.0
 * Now cursor is 1px!
 * Add .searching-current-match (Brackets 0.43)
 * Add .cm-header
+
+v 0.2.1
+
+* Add / change .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt 
+* Change .cm-variable-2{color: #FF5D38;}
+* Improvement code!

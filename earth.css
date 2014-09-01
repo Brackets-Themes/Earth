@@ -8,17 +8,12 @@
 /*Main area*/
 .CodeMirror, .CodeMirror .CodeMirror-scroll {
     background: #2b2a27;
-    color: #929aa2;}
+    color: #26A6A6;}
 
 /************** Cursor e OVR cursor **************/
-.CodeMirror-cursor {
-    border-left: 1px solid #ede0ce !important;
-}
+.CodeMirror-cursor {border-left: 1px solid #ede0ce !important;}
 
-.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
-    border-left: none !important;
-    border-bottom: 2px solid #ede0ce;
-}
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {border-left: none !important; border-bottom: 2px solid #ede0ce;}
 
 .CodeMirror .CodeMirror-scroll .CodeMirror-gutters{background:#2b2a27; border-right:1px solid #000;}/*Left vertical bar with line count*/
 
@@ -27,8 +22,8 @@
 .cm-def{color: inherit;} /*variable definition*/
 .cm-number{color:#BCD42A;} /*Numbers*/
 .cm-variable{color: inherit;} /*Variable name ex. class Variable_name */
-.cm-variable-2{color: inherit;} /*Variable declaration ex. $variable */
-.cm-variable-3{color: inherit;}
+.cm-variable-2{color: #FF5D38;} /*Variable declaration ex. $variable */
+.cm-variable-3{color: #5C5C5C;}
 .cm-property{color:#FF5D38;} /*Property ex. color in color:#f00;*/
 .cm-operator{color: inherit;} /*Operators ex. dots (:) between property and atom value */
 .cm-comment{color:#c18c23;} /*Comment*/
@@ -43,17 +38,15 @@
 .cm-error{ font-style: italic; border-bottom: 2px dotted #ff3292; }
 .cm-header{color: #BCD42A; font-weight: bolder;} /*Element in md file ex. # title*/
 .CodeMirror-selected{background-color: rgb(224,240,250); background-color: rgba(224, 240, 250, 0.1) !important;} /*Selected lines - may need !important*/
-.CodeMirror-gutter-elt{background-color:#2b2a27;}
 .CodeMirror-activeline-background{background:rgb(255,255,255); background:rgba(255,255,255,0.1) !important;} /*Active line - may need !important*/
 .CodeMirror-matchingtag{background:none; text-decoration:underline; font-weight: bold; color: #38b2ff !important;} /*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
 .CodeMirror-matchingbracket{background-color:#f00; font-weight: bold;} /*Matching brackets, open/close*/
+.cm-attribute{color: #FF5D38; } /*class in file md*/
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {color: #f00; background-color: transparent !important;}
 
 /*Inline editor(Ex. Quick Edit - Ctrl + E)*/
 
-.CodeMirror .inline-widget{
-    background: #6a6560;
-    color: #ccc;
-}
+.CodeMirror .inline-widget{background: #6a6560; color: #ccc;}
 
 /********* Quick Documentation - Ctrl + K - CSS*********/
 .inline-widget .css-prop-defn { color: white !important;  }
@@ -63,11 +56,7 @@
 .inline-widget .css-prop-defn code { color: #ea7e06 !important; }
 .inline-widget .css-prop-defn .divider-holder.no-focus .divider { border-color: #5C5C5C; } /* Stripe in the middle */
 
-.CodeMirror .CodeMirror-linenumber {
-    padding-right: 5px;
-    padding-left: 1px;
-    color: #26A6A6;
-}
+.CodeMirror .CodeMirror-linenumber {padding-right: 5px; padding-left: 1px; color: #26A6A6;}
 
 /************** Layouts die mehrere bereiche abdecken **************/
 /******* all scrollbars -
@@ -79,73 +68,34 @@
 #sidebar ::-webkit-scrollbar-track { background-color: transparent; }
 
 /* Schrollbar  ::-webkit-scrollbar"  in the main area */
-::-webkit-scrollbar {
-    width: 11px !important;
-    height: 11px !important;
-}
+::-webkit-scrollbar {width: 11px !important; height: 11px !important;}
 
-.CodeMirror-scrollbar-filler {
-    height: 11px !important;
-    width: 11px !important;
-    background: #5C5C5C;
-}
+.CodeMirror-scrollbar-filler {height: 11px !important;width: 11px !important; background: #5C5C5C;}
 
-.CodeMirror-vscrollbar{
-    /*width: 11px;*/
-    bottom: 11px !important;
-    top: 11px ;
-    border-right: thin solid #999;    
-}
+
+.CodeMirror-vscrollbar{bottom: 11px !important; top: 11px ;border-right: thin solid #999;}
 
 .CodeMirror .CodeMirror-hscrollbar{ height: 11px; right: 11px !important;}
 
 /* Scrollbar gutter - Scrollbar rinne */
-::-webkit-scrollbar-track {
-    background-color: #5C5C5C;
-}
+::-webkit-scrollbar-track {background-color: #5C5C5C;}
 
 /* Scroll object - "background-color" dont work use border to change color*/
-::-webkit-scrollbar-thumb {
-    border: 6px solid #444749;
-    border-radius: 2px;
-}
+::-webkit-scrollbar-thumb {border: 6px solid #444749; border-radius: 2px;}
 
 ::-webkit-scrollbar-thumb:hover { border: 6px solid #1C2020; }
 ::-webkit-scrollbar-thumb:active { border: 6px solid #101010; }
 
 /* the "x" to close, shout work for all avalibal classes  */
-.close {
-    color: #2b2a27 !important;
-    opacity: 0.5;                            
-}
+.close {color: #2b2a27 !important; opacity: 0.5; }
 .close:hover { opacity: 1; }
 
 /*************************************** Main area***************************************/
 
 /*Plug in "Code Folding"*/
-.CodeMirror-foldmarker {
-    background-color: #333;
-    border-color: #555;
-    color: #75715E;
-    padding-right: 10px;
-    padding-left: 10px;
-}
+.CodeMirror-foldmarker {background-color: #333; border-color: #555; color: #75715E; padding-right: 10px; padding-left: 10px;}
 
 /* New Class for Brackets 0.43 (searching)*/
-.CodeMirror-searching {
-    background-color: #38b2ff;
-    border-bottom: 2px solid #FF5D38;
-    /*box-shadow: 0 1px 3px #f00;*/
-    font-weight: bolder;
-}
-
-.searching-current-match {
-    background-color: #ede0ce;
-}
-
-.quick-view-highlight{
-    background-color: rgb(56, 178, 255);
-    background-color: rgba(56, 178, 255, 0.26);
-    border-bottom: 1px solid #FF5D38; 
-}
-
+.CodeMirror-searching {background-color: #38b2ff; border-bottom: 2px solid #FF5D38; font-weight: bolder;}
+.searching-current-match {background-color: #ede0ce;}
+.quick-view-highlight{background-color: rgb(56, 178, 255); background-color: rgba(56, 178, 255, 0.26);border-bottom: 1px solid #FF5D38; }
