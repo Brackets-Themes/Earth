@@ -6,9 +6,7 @@
 */
 
 /*Main area*/
-.CodeMirror, .CodeMirror .CodeMirror-scroll {
-    background: #2b2a27;
-    color: #26A6A6;}
+.CodeMirror, .CodeMirror .CodeMirror-scroll {background: #2b2a27; color: #34a84f;}
 
 /************** Cursor e OVR cursor **************/
 .CodeMirror-cursor {border-left: 1px solid #ede0ce !important;}
@@ -56,7 +54,7 @@
 .inline-widget .css-prop-defn code { color: #ea7e06 !important; }
 .inline-widget .css-prop-defn .divider-holder.no-focus .divider { border-color: #5C5C5C; } /* Stripe in the middle */
 
-.CodeMirror .CodeMirror-linenumber {padding-right: 5px; padding-left: 1px; color: #26A6A6;}
+.CodeMirror .CodeMirror-linenumber {padding-right: 5px; padding-left: 1px; color: #00A8C6;}
 
 /************** Layouts die mehrere bereiche abdecken **************/
 /******* all scrollbars -
@@ -92,10 +90,33 @@
 
 /*************************************** Main area***************************************/
 
-/*Plug in "Code Folding"*/
-.CodeMirror-foldmarker {background-color: #333; border-color: #555; color: #75715E; padding-right: 10px; padding-left: 10px;}
+
+/* Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)*/
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+    background-color: #00a8c6 !important;
+}
+
+/* Code Folding (https://github.com/thehogfather/brackets-code-folding)*/
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+    color: #00a8c6;
+}
+
+.CodeMirror-foldgutter-open::after {content: "\25bd";}
+.CodeMirror-foldmarker {background-color: #00A8C6; border-color: #5C5C5C; color: #ede0ce; padding: 0 10px;}
+
+
 
 /* New Class for Brackets 0.43 (searching)*/
+
 .CodeMirror-searching {background-color: #38b2ff; border-bottom: 2px solid #FF5D38; font-weight: bolder;}
 .searching-current-match {background-color: #ede0ce;}
 .quick-view-highlight{background-color: rgb(56, 178, 255); background-color: rgba(56, 178, 255, 0.26);border-bottom: 1px solid #FF5D38; }

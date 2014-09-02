@@ -68,3 +68,6 @@ v 0.2.1
 * Add / change .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt 
 * Change .cm-variable-2{color: #FF5D38;}
 * Improvement code!
+* Add "Show Whitespace"
+* Add "Code Folding"
+* Change .CodeMirror .CodeMirror-linenumber {padding-right: 5px; padding-left: 1px; color: #00A8C6;}
