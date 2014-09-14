@@ -35,8 +35,8 @@
 .cm-matchingtag{background-color:#2b2a27 ;}
 .cm-error{ font-style: italic; border-bottom: 2px dotted #ff3292; }
 .cm-header{color: #BCD42A; font-weight: bolder;} /*Element in md file ex. # title*/
-.CodeMirror-selected{background-color: rgb(224,240,250); background-color: rgba(224, 240, 250, 0.1) !important;} /*Selected lines - may need !important*/
-.CodeMirror-activeline-background{background:rgb(255,255,255); background:rgba(255,255,255,0.1) !important;} /*Active line - may need !important*/
+.CodeMirror-selected{background-color: rgb(224,240,250); background-color: rgba(224, 240, 250, 0.2) !important;} /*Selected lines - may need !important*/
+.CodeMirror-activeline-background{background:rgb(255,255,255); background:rgba(255, 255, 255, 0.1) !important; border-bottom: 1px solid #ed900e; border-top: 1px solid #ed900e;} /*Active line - may need !important*/
 .CodeMirror-matchingtag{background:none; text-decoration:underline; font-weight: bold; color: #38b2ff !important;} /*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
 .CodeMirror-matchingbracket{background-color:#f00; font-weight: bold;} /*Matching brackets, open/close*/
 .cm-attribute{color: #FF5D38; } /*class in file md*/
@@ -79,7 +79,7 @@
 ::-webkit-scrollbar-track {background-color: #5C5C5C;}
 
 /* Scroll object - "background-color" dont work use border to change color*/
-::-webkit-scrollbar-thumb {border: 6px solid #444749; border-radius: 2px;}
+::-webkit-scrollbar-thumb {border: 6px solid #2b2a27; border-radius: 2px;}
 
 ::-webkit-scrollbar-thumb:hover { border: 6px solid #1C2020; }
 ::-webkit-scrollbar-thumb:active { border: 6px solid #101010; }
@@ -112,7 +112,6 @@
 
 .CodeMirror-foldgutter-open::after {content: "\25bd";}
 .CodeMirror-foldmarker {background-color: #00A8C6; border-color: #5C5C5C; color: #ede0ce; padding: 0 10px;}
-
 
 
 /* New Class for Brackets 0.43 (searching)*/

@@ -71,3 +71,5 @@ v 0.2.1
 * Add "Show Whitespace"
 * Add "Code Folding"
 * Change .CodeMirror .CodeMirror-linenumber {padding-right: 5px; padding-left: 1px; color: #00A8C6;}
+* Change .CodeMirror-activeline-background (add border top and bottom)
+* Uodate Themes of Miguel Castiglio
