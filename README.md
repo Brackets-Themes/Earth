@@ -25,12 +25,12 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 ### HTML
 
-![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/HTML.png)
+![HTML Screenshot](https://github.com/Brackets-Themes/Earth/blob/master/screenshots/HTML.png)
 
 ### CSS
 
-![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/CSS.png)
+![CSS Screenshot](https://github.com/Brackets-Themes/Earth/blob/master/screenshots/CSS.png)
 
 ### JavaScript
 
-![earth](https://raw.githubusercontent.com/Brackets-Themes/Earth/master/JS.png)
+![JS Screenshot](https://github.com/Brackets-Themes/Earth/blob/master/screenshots/JS.png)
