@@ -73,3 +73,7 @@ v 0.2.1
 * Change .CodeMirror .CodeMirror-linenumber {padding-right: 5px; padding-left: 1px; color: #00A8C6;}
 * Change .CodeMirror-activeline-background (add border top and bottom)
 * Update extension Themes of Miguel Castiglio
+
+v 0.2.2
+
+* Remove !important in .CodeMirror-cursor and .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor
