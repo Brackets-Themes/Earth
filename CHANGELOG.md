@@ -77,3 +77,5 @@ v 0.2.1
 v 0.2.2
 
 * Remove !important in .CodeMirror-cursor and .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor
+* Change ::-webkit-scrollbar-thumb 
+* Remove main.js (new in Brackets 0.45)
