@@ -2,7 +2,7 @@
     "title": "Earth",
     "name": "earth",
     "description": "The Earth Dark Theme for Brackets!",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "author": "Denisov21",
     "homepage": "https://github.com/Brackets-Themes/Earth",
     "repository": {
@@ -11,7 +11,7 @@
     },
     "license": "MIT",
     "engines": {
-        "brackets": ">=0.45.0"
+        "brackets": ">=1.0.0"
     },
     "theme": {
         "file": "earth.css",
