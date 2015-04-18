@@ -79,3 +79,7 @@ v 0.2.2
 * Remove !important in .CodeMirror-cursor and .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor
 * Change ::-webkit-scrollbar-thumb 
 * Remove main.js (new in Brackets 1.0.0)
+
+v 0.2.5
+
+* Improvement "Code Folding" (in Brackets 1.3)
