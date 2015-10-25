@@ -83,3 +83,7 @@ v 0.2.2
 v 0.2.5
 
 * Improvement "Code Folding" (in Brackets 1.3)
+
+v 0.2.6
+
+* Change .CodeMirror-selected
