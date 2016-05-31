@@ -13,6 +13,12 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 1. Things look "weird"
 	1. Try hitting F5 (Save changes before doing so!).
 
+# Styles have been added to support the following extensions:
+
+QuickDocsJS
+QuickDocsPHP
+JavaScript Globals
+
 # Contributing
 
 * Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) if you would like to help.
